@@ -4,7 +4,7 @@
 
 }
 
-body {
+body, .body-home{
     background-color: #9E722D;
     min-height: 100vh;
     margin: 0;
@@ -120,18 +120,60 @@ footer nav {
     display: flex;
     font-family: "Italianno", serif;
     font-size: 80px;
+    justify-content: center;
     
    
 }
 
 .div-card {
-    background-color: #1f1300d8;
-    border-radius: 20px;
-    padding: 50px;
+    background-color: #402E32;
+    border-radius: 20px;    
     height: 150px;
+    max-width: 250px;
+    min-width: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+    
 }
 
 .footer-card {
     display: flex;
     justify-content: space-around;
+}
+
+.div-card {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.div-card img{
+    border-radius: 20px;
+    height: 250px;
+}
+
+.main-produtos {
+    display: flex;
+    font-family: "Italianno", serif;
+    background-color: #9E722D;
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.body-compra{
+    background-color: #DFE0DF;
+}
+
+header {
+    background-color: #9E722D;
+}
+
+.linha-p {
+    background-color: #ffffff;
+    height: 1px;
+    width: 30%;
 }
